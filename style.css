@@ -1,0 +1,173 @@
+  
+  html, body {
+      height: 100%;
+  }
+  body  {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+   
+    
+  }
+  ul {
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      padding: none;
+      
+  }
+  li  {
+      padding-right: 16px;
+  }
+  p {
+      margin: 12px;
+  }
+  a {
+      text-decoration: none;
+      color: inherit;
+  }
+  .logo img {
+      width: 60px;
+  }
+  .top-page, 
+  .footer   {
+      background-color: #1F2937;
+  }
+  .top-page {
+    color: #F9FAF8;
+      
+      
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+      
+  }
+  .top-page, .quote, .albums, .action {
+    padding-left: 160px;
+    padding-right: 160px;
+  }
+  .top-page, .albums, .quote {
+      flex: 6;
+  }
+      
+  
+  
+  .hero-main, .logo {
+      font-weight: bolder;
+  }
+  .hero-main {
+    font-size: 30px;
+  }
+  .footer,.hero-secondary {
+      font-size: 15px;
+  }
+  .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center; ;
+  }
+  .second {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 30px;
+      padding-bottom: 30px;
+ 
+     
+  }
+  .second button {
+      background-color: #3882F6;
+      border-radius: 8px;
+      color: white;
+      font-weight: 500;
+      width: 110px;
+  }
+  .image1  {
+      display: flex;
+      justify-content: center;
+      
+  }
+  .second-content {
+      flex-basis: 33.333%;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      
+  }
+  .albums {
+      color: rgb(29, 29, 29);
+      font-weight:800;
+      font-size: 35px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 50px;
+      padding-bottom: 40px;
+      
+  }
+  .albums button {
+      border-radius: 10px;
+      background-color: grey;
+      
+  
+  }
+  .albums img {
+      width: 220px;
+  }
+
+  .quote {
+      background-color: #E5E7EB;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 50px;
+
+  }
+  .action {
+      flex: 4;
+      padding-top: 110px;
+      padding-bottom: 110px;
+  }
+  .footer {
+      flex: 1;
+      color: white;
+      display: flex;
+      justify-content: center;
+  }
+  .jeff-quote {
+      font-size: 36px;
+      font-weight: 400px;
+      color: #1F2937;
+      width: 75%;
+      padding-bottom: 10px;
+      
+  }
+  .jeff-quote-bold  {
+      font-size: 22px;
+  }
+  .action-container, .action button  {
+    color: white;
+
+  }
+  .action-container {
+      padding: 30px;
+      background-color: #3882F6;
+      border-radius: 10px;
+      display: flex;
+      justify-content: space-evenly;
+      
+  }
+  .action button {
+      padding: 25px;
+      background-color: #3882F6;
+      width: 300px;
+      margin-left: 190px;
+      border-radius: 12px;
+      font-size: 20px;
+      font-weight: 600;
+  }
+
+  
+
+  
